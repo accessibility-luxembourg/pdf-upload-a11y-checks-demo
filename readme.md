@@ -5,6 +5,11 @@ This project demonstrates how some basic accessibility checks could limit the nu
 - is the document scanned?
 - is the document protected against the use by assistance technologies?
 
+Here is a screenshot of the demo :
+
+![a form with a file input, where a non-tagged PDF has been selected. It displays a warning message encouraging users to fix the issues.](https://github.com/accessibility-luxembourg/pdf-upload-a11y-checks-demo/assets/16536731/32da8a80-7060-46d0-adb9-15695df91e35)
+
+
 ## Install
 This is a Python project. You need python 3 on your computer. To install the required libraries, please use the following command:
 ```
