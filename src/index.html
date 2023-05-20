@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Demo of basic accessibility checks on PDF files before uploading them</title>
+        <style>#message {display:none; border: 1px solid red; } label, input, button {display: block; margin-bottom: 1em;}</style>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <h1>Basic accessibility checks on PDF files before upload</h1>
+        <form>
+            <label for="file">Please select a file to upload</label>
+            <input type='file' name='file' id="file" />
+            <p id="message"></p>
+            <button>Send</button>
+        </form>
+    </body>
+</html>

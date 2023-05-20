@@ -1,12 +1,13 @@
 import check
 from flask import Flask, request
+from flask_cors import CORS
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
-
-@app.route("/")
-def index():
-    with open('index.html', 'r') as index:
-        return index.read()
+CORS(app, origins=[os.environ.get('FRONTEND_URL')])
 
 @app.route("/check", methods=['POST'])
 def check_pdf():

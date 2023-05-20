@@ -1,0 +1,24 @@
+{
+  "name": "pdf-upload-a11y-checks-demo",
+  "version": "1.0.0",
+  "description": "This project demonstrates how some basic accessibility checks could limit the number of online PDF files with blocking accessibility issues by displaying a warning in a form before the file is being uploaded. This demo does only three checks on PDF files: - is the document tagged? - is the document scanned? - is the document protected against the use by assistance technologies?",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx parcel build src/index.html",
+    "start": "npx parcel serve src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlainVagner/pdf-upload-a11y-checks-demo.git"
+  },
+  "keywords": [
+    "a11y",
+    "pdf"
+  ],
+  "author": "SIP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlainVagner/pdf-upload-a11y-checks-demo/issues"
+  },
+  "homepage": "https://github.com/AlainVagner/pdf-upload-a11y-checks-demo#readme"
+}
