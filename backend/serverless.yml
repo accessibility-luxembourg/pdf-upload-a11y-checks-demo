@@ -4,7 +4,7 @@ provider:
  name: aws
  runtime: python3.9
  region: eu-central-1
- memorySize: 256
+ memorySize: 128
 
 plugins:
   - serverless-wsgi
@@ -13,8 +13,6 @@ custom:
  wsgi:
    app: app.app
    packRequirements: false
- pythonRequirements:
-   dockerizePip: true 	
 functions:
  app:
    handler: wsgi_handler.handler

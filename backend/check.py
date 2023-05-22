@@ -22,7 +22,7 @@ def mergeAnalyses(a, b):
             res[i] = a[i] + b[i]
     return res
 
-def analyseContent(content):
+def analyseContent(content, isXObject:bool = False):
     res = initAnalysis()
     if (content.get('/Resources') is not None):
         xobject = content.Resources.get('/XObject')
@@ -140,5 +140,4 @@ def toJSON(inputfile, debug: bool = False):
         del result['_log']
         del result['fonts']
         del result['numTxtObjects']
-    
     return result
