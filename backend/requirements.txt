@@ -1,5 +1,0 @@
-pikepdf
-bitstring
-Flask
-flask-cors
-python-dotenv
