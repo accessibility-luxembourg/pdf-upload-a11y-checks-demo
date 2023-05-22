@@ -2,3 +2,5 @@
 dist/*
 .env
 !.keep
+# Local Netlify folder
+.netlify
